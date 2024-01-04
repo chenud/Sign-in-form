@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #222; /* Darker background for better glow */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Make the text white for contrast */
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f; /* Add a text glow */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* Make labels white for contrast */
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff; /* White border for the glow effect */
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2); /* Slightly transparent background */
+    box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* Neon glow effect */
+    color: #fff; /* White text for readability */
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f; /* Enhanced glow on focus */
+  }
+  
+  button {
+    background-color: #00f; /* Neon blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f; /* Neon glow */
+  }
+  
+  button:hover {
+    background-color: #00e5ff; /* Slightly brighter blue on hover */
+    box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; /* Enhanced glow on hover */
+  }
+  
